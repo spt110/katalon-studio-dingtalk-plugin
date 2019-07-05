@@ -1,24 +1,24 @@
-package com.katalon.plugin.slack;
+package com.katalon.plugin.dingtalk;
 
 import org.eclipse.jface.preference.PreferencePage;
 
 import com.katalon.platform.api.extension.PluginPreferencePage;
 
-public class SlackPluginPreferencePage implements PluginPreferencePage {
+public class DingDingPluginPreferencePage implements PluginPreferencePage {
 
     @Override
     public String getName() {
-        return "Slack";
+        return "DingDing";
     }
 
     @Override
     public String getPageId() {
-        return "com.katalon.plugin.slack.SlackPluginPreferenPage";
+        return "com.katalon.plugin.dingtalk.DingDingPluginPreferenPage";
     }
 
     @Override
     public Class<? extends PreferencePage> getPreferencePageClass() {
-        return SlackPreferencePage.class;
+        return DingDingPreferencePage.class;
     }
 
 }

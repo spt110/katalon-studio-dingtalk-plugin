@@ -1,4 +1,4 @@
-package com.katalon.plugin.slack;
+package com.katalon.plugin.dingtalk;
 
 import com.katalon.platform.api.execution.TestSuiteExecutionContext;
 
