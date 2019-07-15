@@ -119,7 +119,8 @@ public class DingDingPreferencePage extends PreferencePage implements DingDingCo
         lblConnectionStatus.setText("Connecting...");
         thread = new Thread(() -> {
             try {
-                DingtalkService.getInstance().sendMessage(webHook, mobiles,"This is a test message from Katalon Studio using DingDing Plugin");
+              String jenkinsUrl=  System.getenv("jenkinsUrl");
+                DingtalkService.getInstance().sendMessage(webHook, mobiles,"This is a test message from Katalon Studio using DingDing Plugin"+jenkinsUrl);
                 syncExec(() -> {
                     lblConnectionStatus
                             .setForeground(lblConnectionStatus.getDisplay().getSystemColor(SWT.COLOR_DARK_GREEN));

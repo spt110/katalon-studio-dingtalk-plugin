@@ -48,6 +48,7 @@ public class DingDingEventListenerInitializer implements EventListenerInitialize
 
             TestSuiteCollectionExecutionContext testSuiteContext = (TestSuiteCollectionExecutionContext) eventObject
                     .getExecutionContext();
+
             TestSuiteCollectionStatusSummary testSuiteCollectionSummary = TestSuiteCollectionStatusSummary.of(testSuiteContext);
             System.out.println("DingDing: Start sending summary message to web hook: " + webHook);
             String message = "Summary execution result of test suite: " + testSuiteContext.getSourceId()
