@@ -17,7 +17,7 @@ Requirements:
 - Install the Katalon Studio v6.0.3 or later: [win32](https://s3.amazonaws.com/katalon/release-beta/6.0.3/Katalon_Studio_Windows_32.zip), [win64](https://s3.amazonaws.com/katalon/release-beta/6.0.3/Katalon_Studio_Windows_64.zip), [macOS](https://s3.amazonaws.com/katalon/release-beta/6.0.3/Katalon+Studio.dmg), and [linux64](https://s3.amazonaws.com/katalon/release-beta/6.0.3/Katalon_Studio_Linux_64.tar.gz).
 - Choose *Plugin* > *Install Plugin* in Katalon Studio main menu and select the generated jar file.
 - Click on *DingDing* toolbar button to configure DingDing Integration settings that is under  is under *Plugins* category of Project Settings.
-
+![project-settings](/docs/images/project-settings.png)
 ![dingtalk_item](/docs/images/dingtalk_item.png)
 
 #### DingDing Settings
